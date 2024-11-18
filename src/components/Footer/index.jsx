@@ -2,9 +2,14 @@ import React from "react";
 import { StyledFooter } from "./Footer.styles";
 import logo from "../../../public/assets/images/white-logo.png";
 import arrow from "../../../public/assets/images/arrow.svg";
+import location from "../../../public/assets/images/location.svg";
+import mobile from "../../../public/assets/images/mobile.svg";
+import mail from "../../../public/assets/images/mail.svg";
 import Image from "next/image";
 import Link from "next/link";
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <StyledFooter>
       <div className="container">
@@ -65,25 +70,34 @@ const Footer = () => {
               <strong className="title">Services</strong>
               <ul className="footer-links">
                 <li>
-                  <Image src={arrow} alt="arrow" />
+                  <Image src={mobile} alt="mobile" />
                   <Link href={"tel:+971 56 4792450"} prefetch={false}>
                     +971 56 4792450
                   </Link>
                 </li>
                 <li>
-                  <Image src={arrow} alt="arrow" />
+                  <Image src={mail} alt="mail" />
                   <Link href={"mailto:info@curtainsdubai.com"} prefetch={false}>
                     info@curtainsdubai.com
                   </Link>
                 </li>
                 <li>
-                  <Image src={arrow} alt="arrow" />
+                  <Image src={location} alt="location" />
                   <address>
                     Naif St - Deira - Al Murar - Dubai - United Arab Emirates
                   </address>
                 </li>
               </ul>
             </div>
+          </div>
+        </div>
+        <hr />
+        <div className="legal">
+          <span>Curtains {currentYear} Copyright. All right reserved.</span>
+          <div className="legal-links">
+            <Link href={"/"}>About</Link>
+            <Link href={"/"}>Privacy</Link>
+            <Link href={"/"}>Terms & Condition</Link>
           </div>
         </div>
       </div>

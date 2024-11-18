@@ -17,6 +17,7 @@ const GlobalStyles = createGlobalStyle`
     --black: #000;
     --body-text: #566160;
     --body-text-25: #7c7b7c;
+    --body-text-50: #153736;
     /* Body */
     --base-text-color: var(--body-text);
     --base-background-color: var(--body-color);
