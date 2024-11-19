@@ -34,7 +34,7 @@ export const StyledButton = styled.button`
   ${({ $variant }) =>
     $variant == "secondary" &&
     css`
-      outline: 2px solid var(--secondary);
+      border: 2px solid var(--secondary);
       background: var(--secondary);
       border-radius: 8px;
     `}
@@ -79,7 +79,7 @@ export const StyledButton = styled.button`
   ${({ $outline }) =>
     $outline == "secondary" &&
     css`
-      outline: 2px solid var(--secondary);
+      border: 2px solid var(--secondary);
       border-radius: 8px;
       background: transparent;
       color: var(--secondary);

@@ -9,7 +9,9 @@ const KnowAboutUs = () => {
       <div className="container">
         <div className="image-section">
           <h3>Get to know about us</h3>
-          <Image src={img} alt="img" priority={false} />
+          <div>
+            <Image src={img} alt="img" priority={false} />
+          </div>
         </div>
         <div className="text-wrapper">
           <div className="portfolio-items-wrapper">

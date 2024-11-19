@@ -4,7 +4,7 @@ import sliderImage from "../../../../public/assets/images/sliderImage.svg";
 import Image from "next/image";
 export const HomeSliderStyled = styled.div`
   background: #f6fafa;
-  padding: 40px 0;
+  padding: 20px 0;
   margin-bottom: 30px;
   @media (min-width: 768px) {
     margin-bottom: 50px;
