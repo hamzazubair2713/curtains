@@ -11,6 +11,7 @@ export const QuestionHead = styled.div`
     font-size: 22px;
     line-height: 26px;
     color: #424954;
+    margin-bottom: 20px;
 
     @media (min-width: 768px) {
       font-size: 38px;
@@ -19,6 +20,7 @@ export const QuestionHead = styled.div`
     @media (min-width: 992px) {
       font-size: 45px;
       line-height: 49px;
+      margin-bottom: 30px;
     }
   }
 `;

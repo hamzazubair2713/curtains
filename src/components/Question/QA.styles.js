@@ -24,7 +24,6 @@ export const QuestionWrapper = styled.div`
 `;
 export const Number = styled.div`
   h6 {
-    font-style: normal;
     font-weight: 700;
     font-size: 28px;
     line-height: normal;

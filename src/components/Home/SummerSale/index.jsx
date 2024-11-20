@@ -12,19 +12,34 @@ const SummerSale = () => {
   var settings = {
     dots: false,
     infinite: false,
-    slidesToShow: 4,
+    slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 500,
-    // responsive: [
-    //   {
-    //     breakpoint: 0,
-    //     settings: {
-    //       slidesToShow: 1,
-    //       slidesToScroll: 1,
-    //     },
-    //   },
-    // ],
+    autoplaySpeed: 3000,
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          infinite: true,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   return (
     <StyledSummerSale>

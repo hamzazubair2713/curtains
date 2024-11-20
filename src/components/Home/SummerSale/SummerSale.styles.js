@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledSummerSale = styled.div`
-  margin-bottom: 25px;
+  margin-bottom: 40px;
   .desc {
     font-size: 13px;
     font-weight: 400;
@@ -25,6 +25,14 @@ export const StyledSummerSale = styled.div`
   .container {
     margin-bottom: 50px;
   }
+  .slick-slide {
+    padding: 0px 5px;
+    > div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
 `;
 export const SliderCard = styled.div`
   max-width: 300px;
@@ -35,6 +43,9 @@ export const SliderCard = styled.div`
   color: #727272;
   .img-wrap {
     margin-bottom: 27px;
+    img {
+      width: 100%;
+    }
   }
   .item-name {
     font-size: 18px;

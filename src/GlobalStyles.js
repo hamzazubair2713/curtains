@@ -53,6 +53,10 @@ const GlobalStyles = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background: var(--white);
+    @media (max-width: 768px) {
+      font-size: 16px;
+      line-height:20px;
+    }
    
   }
   .container{
