@@ -3,6 +3,7 @@ import { StyledHero } from "./Hero.styles";
 import Button from "@/components/Button";
 import Image from "next/image";
 import mainimg from "../../../../public/assets/images/hero_img.png";
+import floatingStar from "../../../../public/assets/images/floatingStar.svg";
 
 const Hero = () => {
   return (
@@ -16,6 +17,12 @@ const Hero = () => {
             in Dubai and notable 
           </p>
           <Button width={"180px"}>Contact Us</Button>
+          <div className="floating-right">
+            <Image src={floatingStar} alt="floatingStar" />
+          </div>
+          <div className="floating-left">
+            <Image src={floatingStar} alt="floatingStar" />
+          </div>
         </div>
       </div>
       <div className="imag-wrap">

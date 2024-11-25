@@ -40,7 +40,25 @@ export const StyledHero = styled.div`
     font-weight: 400;
     text-align: center;
     margin-bottom: 20px;
-
+    .floating-right {
+      position: absolute;
+      top: 200px;
+      right: 0;
+      @media (max-width: 1300px) {
+        top: 100px;
+      }
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+    .floating-left {
+      position: absolute;
+      top: 80px;
+      left: 0;
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
     p {
       margin-bottom: 20px;
 
