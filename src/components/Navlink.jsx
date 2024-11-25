@@ -6,7 +6,7 @@ const Navlink = ({ href, children }) => {
   const { pathname } = useRouter();
 
   return (
-    <Link href={href} className={`${pathname.includes(href) ? "active" : ""}`}>
+    <Link href={href} className={`${pathname === href ? "active" : ""}`}>
       {children}
     </Link>
   );

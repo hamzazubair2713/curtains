@@ -1,6 +1,5 @@
 import React from "react";
 import { StyledItemCard } from "./SignatureCollection.styles";
-import fakeImage from "../../../../public/assets/images/itemImage.png";
 import { BsArrowRight } from "react-icons/bs";
 
 import Image from "next/image";
@@ -16,7 +15,7 @@ const ItemCard = ({ data }) => {
             : data?.desc}
         </p>
       </div>
-      <Link href={"/"}>
+      <Link href={"/product/256"}>
         <BsArrowRight size={22} color="#18191A" />
       </Link>
       <div className="image-wraper">

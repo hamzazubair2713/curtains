@@ -108,11 +108,11 @@ export const StyledItemCard = styled.div`
     margin-bottom: 15px;
   }
   .image-wraper {
+    /* max-width: 346px; */
     @media (max-width: 375px) {
       max-width: 346px;
     }
     img {
-      max-width: 100%;
       width: 100%;
       height: auto;
       object-fit: cover;

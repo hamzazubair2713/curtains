@@ -12,7 +12,7 @@ const SummerSale = () => {
   var settings = {
     dots: false,
     infinite: false,
-    slidesToShow: 1,
+    slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,

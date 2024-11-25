@@ -45,7 +45,7 @@ const Header = () => {
               <Navlink href={"/"}>Home</Navlink>
             </li>
             <li>
-              <Navlink href={"/service"}>Service</Navlink>
+              <Navlink href={"/our-services"}>Service</Navlink>
             </li>
             <li>
               <Navlink href={"/gallery"}>Gallery</Navlink>
